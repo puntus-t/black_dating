@@ -1,0 +1,108 @@
+@media (max-width:870px) {
+	.logo {
+		font-size: 30px;
+		padding-left: 60px;
+	}
+
+	.logo:before {
+		width: 60px;
+		height: 60px;
+	}
+	
+	.nav {
+	    font-size: 12px;
+	    margin-right: 2px;
+	}
+
+	.nav li {
+	    margin-right: 10px;
+	}
+	
+	.link span {
+		padding: 10px;
+		font-size: 20px;
+	}
+
+	.link a {
+    	font-size: 18px;
+    	padding: 0;
+	}
+
+    .text {
+	    width: 90%;
+	    margin-bottom: 30px;
+	}
+
+	.aside {
+	    width: 90%;
+	}
+
+	.pictures img {
+		width: 48%;
+		margin: 1%;
+		text-align: center;
+	}
+
+	.description {
+		width: 90%;
+	}
+
+	.questionary-man,
+	.questionary-woman {
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.questionary-man img,
+	.questionary-woman img{
+		margin-right: 0px;
+		text-align: center;
+	}
+	
+}
+
+@media (max-width:660px){
+
+	footer {
+		width: 80%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.nav {
+		margin-top: 40px;
+		width: 100%;
+
+	}
+
+	.nav li {
+	    float: none;
+	    text-align: center;
+	}
+	
+	.nav a {
+    	padding: 10px;
+    	font-size: 26px;
+    	line-height: 40px;
+	}
+
+	.nav a:hover,
+	.nav .active {
+    	border-top: none;
+    	color: #b04883;
+	}
+
+	.banner {
+		width: 100%;
+		min-height: 400px;
+		height: auto;
+	}
+
+	.copy {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+}
