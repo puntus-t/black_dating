@@ -9,21 +9,21 @@
 		height: 60px;
 	}
 	
-	.nav {
+	nav {
 	    font-size: 12px;
 	    margin-right: 2px;
 	}
 
-	.nav li {
+	nav li {
 	    margin-right: 10px;
 	}
 	
-	.link span {
+	.call-to-action span {
 		padding: 10px;
 		font-size: 20px;
 	}
 
-	.link a {
+	.call-to-action a {
     	font-size: 18px;
     	padding: 0;
 	}
@@ -33,30 +33,29 @@
 	    margin-bottom: 30px;
 	}
 
-	.aside {
+	aside {
 	    width: 90%;
+	    margin-left: 30px;
 	}
 
-	.pictures img {
+	.gallery img {
 		width: 48%;
 		margin: 1%;
 		text-align: center;
 	}
 
-	.description {
+	figcaption {
 		width: 90%;
 	}
 
-	.questionary-man,
-	.questionary-woman {
+	figure {
 		margin: 0;
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
 	}
 
-	.questionary-man img,
-	.questionary-woman img{
+	figure img{
 		margin-right: 0px;
 		text-align: center;
 	}
@@ -65,31 +64,35 @@
 
 @media (max-width:660px){
 
+	.woman {
+		margin-right: 0px;
+	}
+
 	footer {
 		width: 80%;
 		display: flex;
 		justify-content: center;
 	}
 
-	.nav {
+	nav {
 		margin-top: 40px;
 		width: 100%;
 
 	}
 
-	.nav li {
+	nav li {
 	    float: none;
 	    text-align: center;
 	}
 	
-	.nav a {
+	nav a {
     	padding: 10px;
     	font-size: 26px;
     	line-height: 40px;
 	}
 
-	.nav a:hover,
-	.nav .active {
+	nav a:hover,
+	nav .active {
     	border-top: none;
     	color: #b04883;
 	}
